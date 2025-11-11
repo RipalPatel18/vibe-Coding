@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Click the Snail (Unwinnable)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🐌 Click the Snail</h1>
+      <p>Hint: You will <em>always</em> be too slow.</p>
+    </header>
+
+    <div class="game" id="game">
+      <div class="toast" id="toast">Too slow!</div>
+      <div class="snail" id="snail" title="Try to click me">🐌</div>
+      <div class="ground"></div>
+    </div>
+
+    <footer>
+      <button class="btn" id="restart">Restart</button>
+      <div class="stat">Clicks: <b id="clicks">0</b></div>
+      <div class="stat">Speed: <b id="speed">20</b> px/s</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
